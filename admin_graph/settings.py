@@ -54,6 +54,7 @@ ROOT_URLCONF = 'admin_graph.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        # setting template path so that all the template can be find in the template folder
         'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
